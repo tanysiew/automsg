@@ -79,7 +79,7 @@ app.get('/api', (req, res) => {
 app.get('/webhook', (req, res) => {
 
     /** UPDATE YOUR VERIFY TOKEN **/
-    const VERIFY_TOKEN = "EAAMPgj9q0L8BALuzlTru1tJIk3ap3ZAAMmpCgujKI6tXpkZC2wQI422DZANu9u6UBcLAi4K2SgopSBkf60EoyZASLAzhDUy1ZCiA8G4dQUujh7z2wyI2PrFg9OlwaXRewEXqZBL69xqpj95uIEwbJEXvwwv0uax6TGfLFmKS3dkgZDZD";
+    const VERIFY_TOKEN = "EAAMPgj9q0L8BAK5VRAuh3qjFD4MXFJQ4prWxxxq9ZBq1KQl7OOwm5DeySMLoslgSdZAkOZBgZAviIeUu9x0xPwhZCAIbku6F5F3e80kalRzoKKXKIzF7ViCNKsk9w0CZCL1DfBC5zecOTUkPunxWJxZCLQwZCHturCmQEji3b6HYOwZDZD";
 
     // Parse params from the webhook verification request
     let mode = req.query['hub.mode'];
